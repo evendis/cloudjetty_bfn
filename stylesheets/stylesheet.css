@@ -295,15 +295,17 @@ blockquote {
 }
 
 ul li {
-  list-style-position: inside;
   list-style: disc;
+  list-style-position: inside;
   padding-left: 20px;
+  font-weight: 300;
 }
 
 ol li {
-  list-style-position: inside;
   list-style: decimal;
+  list-style-position: inside;
   padding-left: 3px;
+  font-weight: 300;
 }
 
 dl dt {
@@ -324,6 +326,10 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+img.logo {
+  float: right;
 }
 
 /* MISC */
